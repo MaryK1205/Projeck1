@@ -1,12 +1,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        int cost_of_mili = 20;
-        int price_ticket = 13550;
-        double number_mili;
+        int costOfMili = 20;
+        int priceTicket = 13550;
+        double numberMili;
+        numberMili = Math.floor(priceTicket / costOfMili);
+        System.out.println(numberMili);
 
-        number_mili=Math.floor(price_ticket/cost_of_mili);
-        System.out.println(number_mili);
-
-            }
+    }
 }
