@@ -1,10 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        int costOfMili = 20;
-        int priceTicket = 13550;
-        double numberMili = priceTicket / costOfMili;
-        System.out.println(numberMili);
-
+        BonusMilesService service = new BonusMilesService();
+        int price = 10_000;
+        int miles = service.calculate(price); // должно получиться 500
+        System.out.println(miles);
     }
 }
