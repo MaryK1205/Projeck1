@@ -1,8 +1,8 @@
 public class BonusMilesService {
-    public int calculate(int priceticket){
+    public int calculate(int priceTicket) {
         int costOfMili = 20;
-        int numberMili = priceticket / costOfMili;
+        int numberMili = priceTicket / costOfMili;
         return numberMili;
 
-       }
+    }
 }
